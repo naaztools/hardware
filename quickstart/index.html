@@ -19,23 +19,36 @@
         window.$docsify = {
             name: 'UAE hardware market', 
             repo: 'https://github.com/naaztools/hardware', 
-            auto2top: true,
-            coverpage: true,
+            auto2top: false,
+            coverpage: false,
             loadSidebar: true,
-            subMaxLevel: 2,
+            subMaxLevel: 5,
         }
 
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script>
   window.$docsify = {
-    search: 'auto', // default
+      coverpage: true,
 
-    search : [
+  // Custom file name
+  coverpage: 'cover.md',
+
+  // mutiple covers
+  coverpage: ['/', '/zh-cn/'],
+
+  // mutiple covers and custom file name
+  coverpage: {
+    '/': 'cover.md',
+
+      homepage: 'home.md',
+      loadSidebar: true,
+      loadSidebar: 'summary.md'
+      search: 'auto', // default
+      search : [
       '/',            // => /README.md
       '/guide',       // => /guide.md
       '/get-started', // => /get-started.md
-      '/zh-cn/',      // => /zh-cn/README.md
     ],
 
     // complete configuration parameters

@@ -20,12 +20,12 @@
             repo: 'https://github.com/michaelcurrin/docsify-template',
             auto2top: true, // This helps a lot when switching between sections by menu.
             coverpage: true,
-            loadSidebar: false,
+            loadSidebar: true,
         }
 
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-    <script>
+     <script>
   window.$docsify = {
     search: 'auto', // default
 
@@ -33,26 +33,23 @@
       '/',            // => /README.md
       '/guide',       // => /guide.md
       '/get-started', // => /get-started.md
-      '/zh-cn/',      // => /zh-cn/README.md
     ],
 
     // complete configuration parameters
     search: {
       maxAge: 86400000, // Expiration time, the default one day
-      paths: auto, // or 'auto'
-      placeholder: 'Type to search',
+      paths: [], // or 'auto'
+      placeholder: 'Type to searrch',
 
       // Localization
       placeholder: {
-        '/zh-cn/': '搜索',
-        '/': 'Type to search'
+        '/': 'Type to seearch'
       },
 
-      noData: 'No Results!',
+      noData: 'No Reesults!',
 
       // Localization
       noData: {
-        '/zh-cn/': '找不到结果',
         '/': 'No Results'
       },
 

@@ -3,11 +3,13 @@
 
 Collection of Hardwares item with their respective suppliers. 
 
+www.hardwares.ml/quickstart
 
 ## Documentation
 
- 
+ documentation?
 
 
 ## License
  
+free licence?

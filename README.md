@@ -6,15 +6,24 @@ Collection of Hardwares item with their respective suppliers.
 
 ## Brand Names
 one
+
 two
+
 three
+
 foru
+
 five
+
 six
 
 ## Items
 One 
+
 two
+
 three
+
 four
+
 five

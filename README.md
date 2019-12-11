@@ -1,15 +1,11 @@
 # UAE HArdwares Market
-> Firt 1.0
+>  2.0 verion update
 
 Collection of Hardwares item with their respective suppliers. 
 
-www.hardwares.ml/quickstart
 
-## Documentation
+## Header
 
- documentation?
+# headerr
 
 
-## License
- 
-free licence?

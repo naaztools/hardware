@@ -1,29 +1,13 @@
 # UAE HArdwares Market
->  2.0 verion update
+>  2.0 version 
 
 Collection of Hardwares item with their respective suppliers. 
 
+# Instructions
+Just Start Searching :)
+
 
 ## Brand Names
-one
-
-two
-
-three
-
-foru
-
-five
-
-six
+ 
 
 ## Items
-One 
-
-two
-
-three
-
-four
-
-five
